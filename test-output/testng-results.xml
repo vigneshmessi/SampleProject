@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-15T04:03:44Z" name="Suite" finished-at="2023-11-15T04:04:31Z" duration-ms="46763">
+    <groups>
+    </groups>
+    <test started-at="2023-11-15T04:03:44Z" name="Test" finished-at="2023-11-15T04:04:31Z" duration-ms="46763">
+      <class name="com.testng.crossbrowser.parallel.ParallelTest">
+        <test-method signature="adactinLoginWithInValidUserAndValidPwd()[pri:0, instance:com.testng.crossbrowser.parallel.ParallelTest@b2c5e07]" started-at="2023-11-15T04:03:44Z" name="adactinLoginWithInValidUserAndValidPwd" finished-at="2023-11-15T04:03:45Z" duration-ms="903" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.testng.crossbrowser.parallel.ParallelTest.adactinLoginWithInValidUserAndValidPwd(ParallelTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adactinLoginWithInValidUserAndValidPwd -->
+        <test-method signature="adactinLoginWithInValidUserAndInValidPwd()[pri:0, instance:com.testng.crossbrowser.parallel.ParallelTest@b2c5e07]" started-at="2023-11-15T04:03:44Z" name="adactinLoginWithInValidUserAndInValidPwd" finished-at="2023-11-15T04:03:45Z" duration-ms="928" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.testng.crossbrowser.parallel.ParallelTest.adactinLoginWithInValidUserAndInValidPwd(ParallelTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adactinLoginWithInValidUserAndInValidPwd -->
+        <test-method signature="adactinLoginWithValidUserAndInValidPwd()[pri:0, instance:com.testng.crossbrowser.parallel.ParallelTest@b2c5e07]" started-at="2023-11-15T04:03:45Z" name="adactinLoginWithValidUserAndInValidPwd" finished-at="2023-11-15T04:04:31Z" duration-ms="45681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adactinLoginWithValidUserAndInValidPwd -->
+        <test-method signature="adactinLoginWithValidUserAndValidPwd()[pri:0, instance:com.testng.crossbrowser.parallel.ParallelTest@b2c5e07]" started-at="2023-11-15T04:03:45Z" name="adactinLoginWithValidUserAndValidPwd" finished-at="2023-11-15T04:04:29Z" duration-ms="44207" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=119.0.6045.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-01EHOD0', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e74ef333f25171a5da10c919feb13b46]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=119.0.6045.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-01EHOD0', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e74ef333f25171a5da10c919feb13b46
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.testng.crossbrowser.parallel.ParallelTest.adactinLoginWithValidUserAndValidPwd(ParallelTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adactinLoginWithValidUserAndValidPwd -->
+      </class> <!-- com.testng.crossbrowser.parallel.ParallelTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
